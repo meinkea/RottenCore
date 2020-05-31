@@ -1,0 +1,25 @@
+/*! /file error_codes.h
+ *
+ *  /brief Helo codes to diagnose problems
+ *
+ */
+
+
+#ifndef BLASxOFF_BLAS_ERROR_CODES_H
+  #define BLASxOFF_BLAS_ERROR_CODES_H
+
+
+  #define BLAS_ERR_MEMORY_ALLOCATION_FAILURE               -1
+  #define BLAS_ERR_MEMORY_ALREADY_ALLOCATED                -2
+  #define BLAS_ERR_MEMORY_ALLOCATION_SIZE_NOT_AVALIABLE    -3
+  #define BLAS_ERR_MEMORY_ALREADY_FREE                     -4
+  #define BLAS_ERR_REQUEST_GREATER_THEN_MATRIX_ROW_MAX     -5
+  #define BLAS_ERR_REQUEST_GREATER_THEN_MATRIX_COL_MAX     -6
+  #define BLAS_ERR_REQUEST_GREATER_THEN_MATRIX_SIZE_MAX    -7
+  #define BLAS_ERR_REQUEST_GREATER_THEN_VECTOR_SIZE_MAX    -8
+  #define BLAS_ERR_REQUEST_GREATER_THEN_NAME_SIZE_MAX      -9
+  #define BLAS_ERR_
+
+#endif // BLASxOFF_BLAS_ERROR_CODES_D
+
+
