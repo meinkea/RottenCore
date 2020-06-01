@@ -3,7 +3,7 @@
 
 ## What is this?
 ----
-> This is library is aimed to be an easy to use open source Basic Linear Algebra System (BLAS) library.
+> This is library is aimed to be an easy to use open source Linear Algebra System.
 
 
 
