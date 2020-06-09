@@ -8,7 +8,7 @@
 #include <stddef.h>
 
 
-void vswap(struct vector * vSrcDstA, struct vector * vSrcDstB) {
+void v__swap(struct vector * vSrcDstA, struct vector * vSrcDstB) {
   int flags_temp = 0;
   unsigned int l_temp = 0;
   char * name_temp = NULL;

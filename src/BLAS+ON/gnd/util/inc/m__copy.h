@@ -7,34 +7,37 @@
  */
 
 
-#ifndef BLASxOFF__M__COPY_H
-  #define BLASxOFF__M__COPY_H
+#ifndef BLASxON__M__COPY_H
+  #define BLASxON__M__COPY_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
+  // -- BLAS Datatypes
+  // #include "../../datatypes/inc/vector.h"
   #include "../../datatypes/inc/matrix.h"
 
 
-#ifdef __cplusplus
-  extern "C" {
-#endif
+  #ifdef __cplusplus
+    extern "C" {
+  #endif
 
 
-  void IRAM_ATTR m__copy(
-    struct matrix * mRes,
-    const struct matrix * mSrc
-  )
-    __attribute((nonull))
-  ;
-
-
-#ifdef __cplusplus
-  }
-#endif
+    void BLASxON__FuncHEAD m__copy(
+      struct matrix * mRes,
+      const struct matrix * mSrc
+    )
+      __attribute((nonull))
+    ;
   
 
-#endif // BLASxOFF__M__COPY_H
+  #ifdef __cplusplus
+    }
+  #endif
+  
+
+#endif // BLASxON__M__COPY_H
 
 

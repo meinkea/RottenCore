@@ -5,14 +5,16 @@
  */
 
 
-#ifndef BLASxOFF__M__ZERO_H
-  #define BLASxOFF__M__ZERO_H
+#ifndef BLASxON__M__ZERO_H
+  #define BLASxON__M__ZERO_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
-  // Matrix Datatype
+  // -- BLAS Datatypes
+  // #include "../../datatypes/inc/vector.h"
   #include "../../datatypes/inc/matrix.h"
 
 
@@ -21,8 +23,7 @@
   #endif
 
 
-    // level 0
-    void IRAM_ATTR m__zero(
+    void BLASxON__FuncHEAD m__zero(
       struct matrix * mDst
     )
       __attribute__((nonull))
@@ -34,6 +35,6 @@
   #endif
 
 
-#endif // BLASxOFF__M__ZERO_H
+#endif // BLASxON__M__ZERO_H
 
 

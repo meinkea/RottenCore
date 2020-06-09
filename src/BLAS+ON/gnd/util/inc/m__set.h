@@ -3,14 +3,16 @@
  */
 
 
+#ifndef BLASxON__M__SET_H
+  #define BLASxON__M__SET_H
 
-#ifndef BLASxOFF__M__SET_H
-  #define BLASxOFF__M__SET_H
 
-
+  // -- CPU Architecture
   #include "../../cpu_architecture/cpu_architecture.h"
 
 
+  // -- BLAS Datatypes
+  // #include "../../datatypes/inc/vector.h"
   #include "../../datatypes/inc/matrix.h"
 
 
@@ -19,12 +21,12 @@
   #endif
 
 
-  void BLASxOFF__FuncHEAD m__set(
-    struct matrix * mDst,
-    float * arraySrc
-  )
-    __attribute__((nonull))
-  ;
+    void BLASxON__FuncHEAD m__set(
+      struct matrix * mDst,
+      float * arraySrc
+    )
+      __attribute__((nonull))
+    ;
 
 
   #ifdef __cplusplus
@@ -32,6 +34,6 @@
   #endif
 
 
-#endif // BLASxOFF__M__SET_H
+#endif // BLASxON__M__SET_H
 
 

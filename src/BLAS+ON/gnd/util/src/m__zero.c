@@ -8,7 +8,7 @@
 #include "../../lvlZ/inc/array_zero.h"
 
 
-void mzero(struct matrix * mDst) {
+void m__zero(struct matrix * mDst) {
   array_zero(*(mDst->m), 0, mDst->l);
   return;
 }

@@ -5,15 +5,17 @@
  */
 
 
-#ifndef BLASxOFF__V__COPY_H
-  #define BLASxOFF__V__COPY_H
+#ifndef BLASxON__V__COPY_H
+  #define BLASxON__V__COPY_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
-  // Vector Datatype
+  // -- BLAS Datatypes
   #include "../../datatypes/inc/vector.h"
+  // #include "../../datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
@@ -21,12 +23,12 @@
   #endif
 
 
-  void IRAM_ATTR v__copy(
-    struct vector * vDst,
-    const struct vector * vSrc
-  )
-    __attribute__((nonull))
-  ;
+    void BLASxON__FuncHEAD v__copy(
+      struct vector * vDst,
+      const struct vector * vSrc
+    )
+      __attribute__((nonull))
+    ;
 
 
   #ifdef __cplusplus
@@ -34,6 +36,6 @@
   #endif 
 
 
-#endif // BLASxOFF__V__COPY_H
+#endif // BLASxON__V__COPY_H
 
 

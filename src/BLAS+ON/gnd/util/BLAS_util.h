@@ -1,5 +1,5 @@
-#ifndef BLASxOFF_BLAS_UTIL_H
-  #define BLASxOFF_BLAS_UTIL_H
+#ifndef BLASxON_BLAS_UTIL_H
+  #define BLASxON_BLAS_UTIL_H
 
 
   #include "inc/m__clone.h"
@@ -18,4 +18,4 @@
   #include "inc/v__zero.h"
 
 
-#endif // BLASxOFF_BLAS_UTIL_H
+#endif // BLASxON_BLAS_UTIL_H

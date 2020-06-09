@@ -5,15 +5,17 @@
  */
 
 
-#ifndef BLASxOFF__V__SWAP_H
-  #define BLASxOFF__V__SWAP_H
+#ifndef BLASxON__V__SWAP_H
+  #define BLASxON__V__SWAP_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
-  // Vector Datatype
+  // -- BLAS Datatypes
   #include "../../datatypes/inc/vector.h"
+  // #include "../../datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
@@ -21,7 +23,7 @@
   #endif
 
 
-    void IRAM_ATTR v__swap(
+    void BLASxON__FuncHEAD v__swap(
       struct vector * vScrDstA,
       struct vector * vScrDstB
     )
@@ -34,6 +36,6 @@
   #endif 
 
 
-#endif // BLASxOFF__V__SWAP_H
+#endif // BLASxON__V__SWAP_H
 
 

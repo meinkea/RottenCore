@@ -5,13 +5,16 @@
  */
 
 
-#ifndef BLASxOFF__M__CLONE_H
-  #define BLASxOFF__M__CLONE_H
+#ifndef BLASxON__M__CLONE_H
+  #define BLASxON__M__CLONE_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
+  // -- BLAS Datatypes
+  // #include "../../datatypes/inc/vector.h"
   #include "../../datatypes/inc/matrix.h"
 
 
@@ -24,7 +27,7 @@
   #endif
 
 
-    void IRAM_ATTR m__clone(
+    void BLASxON__FuncHEAD m__clone(
       struct matrix * mRes,
       const struct matrix * mSrc,
       const char * name,
@@ -39,6 +42,6 @@
   #endif
 
 
-#endif // BLASxOFF__M__CLONE_H
+#endif // BLASxON__M__CLONE_H
 
 

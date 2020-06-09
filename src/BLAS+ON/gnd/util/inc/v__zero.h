@@ -5,15 +5,17 @@
  */
 
 
-#ifndef BLASxOFF__V__ZERO_H
-  #define BLASxOFF__V__ZERO_H
+#ifndef BLASxON__V__ZERO_H
+  #define BLASxON__V__ZERO_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
-  // Vector Datatype
+  // -- BLAS Datatypes
   #include "../../datatypes/inc/vector.h"
+  // #include "../../datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
@@ -21,8 +23,7 @@
   #endif
   
   
-    // level 0
-    void IRAM_ATTR v__zero(
+    void BLASxON__FuncHEAD v__zero(
       struct vector * vDst
     )
       __attribute__((nonull))
@@ -34,6 +35,6 @@
   #endif 
 
 
-#endif // BLASxOFF__V__ZERO_H
+#endif // BLASxON__V__ZERO_H
 
 
