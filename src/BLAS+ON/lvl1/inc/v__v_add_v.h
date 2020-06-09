@@ -3,15 +3,17 @@
  */
 
 
-#ifndef BLASxOFF_V__V_ADD_V_H
-  #define BLASxOFF_V__V_ADD_V_H
+#ifndef BLASxON_V__V_ADD_V_H
+  #define BLASxON_V__V_ADD_V_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
-  // Vector Datatype
+  // -- BLAS Datatypes
   #include "../../gnd/datatypes/inc/vector.h"
+  // #include "../../gnd/datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
@@ -19,7 +21,7 @@
   #endif
 
 
-    void IRAM_ATTR v__v_add_v(
+    void BLASxON__FuncHEAD v__v_add_v(
       struct vector * vRes,
       const struct vector * vOprA,
       const struct vector * vOprB
@@ -33,6 +35,6 @@
   #endif 
 
 
-#endif // BLASxOFF_V__V_ADD_V_H
+#endif // BLASxON_V__V_ADD_V_H
 
 

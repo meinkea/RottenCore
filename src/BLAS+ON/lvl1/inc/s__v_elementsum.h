@@ -3,15 +3,17 @@
  */
 
 
-#ifndef BLASxOFF_S__V_ELEMENTSUM_H
-  #define BLASxOFF_S__V_ELEMENTSUM_H
+#ifndef BLASxON_S__V_ELEMENTSUM_H
+  #define BLASxON_S__V_ELEMENTSUM_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
-  // Vector Datatype
+  // -- BLAS Datatypes
   #include "../../gnd/datatypes/inc/vector.h"
+  //#include "../../gnd/datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
@@ -19,7 +21,7 @@
   #endif
 
 
-    void IRAM_ATTR s__v_elementsum(
+    void BLASxON__FuncHEAD s__v_elementsum(
       float * sclRes,
       const struct vector * vOpr
     )
@@ -32,6 +34,6 @@
   #endif 
 
 
-#endif // BLASxOFF_S__V_ELEMENTSUM_H
+#endif // BLASxON_S__V_ELEMENTSUM_H
 
 
