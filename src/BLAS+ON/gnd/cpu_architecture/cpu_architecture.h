@@ -3,8 +3,8 @@
  */
 
 
-#ifndef BLASxOFF__CPU_ARCHITECTURE_H
- #define BLASxOFF__CPU_ARCHITECTURE_H
+#ifndef BLASxON__CPU_ARCHITECTURE_H
+ #define BLASxON__CPU_ARCHITECTURE_H
 
 
   #ifdef ESP32
@@ -18,6 +18,6 @@
   #endif
 
 
-#endif // BLASxOFF__CPU_ARCHITECTURE_H
+#endif // BLASxON__CPU_ARCHITECTURE_H
 
 

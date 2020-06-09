@@ -3,16 +3,16 @@
  */
 
 
-#ifndef BLASxOFF__ARCH_TYPE__ESP32_H
- #define BLASxOFF__ARCH_TYPE__ESP32_H
+#ifndef BLASxON__ARCH_TYPE__ESP32_H
+ #define BLASxON__ARCH_TYPE__ESP32_H
 
 
   #include "esp_attr.h"
 
 
-  #define BLASxOFF__FuncHEAD IRAM_ATTR
+  #define BLASxON__FuncHEAD IRAM_ATTR
 
 
-#endif // BLASxOFF__ARCH_TYPE__ESP32_H
+#endif // BLASxON__ARCH_TYPE__ESP32_H
 
 
