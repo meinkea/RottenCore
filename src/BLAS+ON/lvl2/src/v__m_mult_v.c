@@ -12,7 +12,7 @@
 #include "../../gnd/lvlZ/inc/array_dot.h"
 
 
-void IRAM_ATTR v__m_mult_v(
+void v__m_mult_v(
   struct vector * restrict vRes,
   const struct matrix * restrict mOprA,
   const struct vector * restrict vOprB
