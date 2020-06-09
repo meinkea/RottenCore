@@ -5,13 +5,16 @@
  */
 
 
-#ifndef BLASxOFF_MSUMDIAG_H
-  #define BLASxOFF_MSUMDIAG_H
+#ifndef BLASxON_MSUMDIAG_H
+  #define BLASxON_MSUMDIAG_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
+  // -- BLAS Datatypes
+  // #include "../../gnd/datatypes/inc/vector.h"
   #include "../../gnd/datatypes/inc/matrix.h"
 
 
@@ -20,7 +23,7 @@
   #endif
 
 
-    void IRAM_ATTR msumdiag(
+    void BLASxON__FuncHEAD msumdiag(
       float * sclRes,
       struct matrix * mOpr
     )
@@ -33,6 +36,6 @@
   #endif
 
 
-#endif // BLASxOFF_MSUMDIAG_H
+#endif // BLASxON_MSUMDIAG_H
 
 

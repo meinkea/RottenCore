@@ -3,14 +3,16 @@
  */
 
 
-#ifndef BLASxOFF__M__M_MULT_S_H
-  #define BLASxOFF__M__M_MULT_S_H
+#ifndef BLASxON__M__M_MULT_S_H
+  #define BLASxON__M__M_MULT_S_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
-  // BLAS Datatype
+  // -- BLAS Datatypes
+  // #include "../../gnd/datatypes/inc/vector.h"
   #include "../../gnd/datatypes/inc/matrix.h"
 
 
@@ -19,7 +21,7 @@
   #endif
 
 
-    void IRAM_ATTR m__m_mult_s(
+    void BLASxON__FuncHEAD m__m_mult_s(
       struct matrix * mRes,
       const struct matrix * mOprA,
       const float sOprB
