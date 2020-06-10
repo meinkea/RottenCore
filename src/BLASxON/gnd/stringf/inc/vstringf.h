@@ -1,6 +1,7 @@
 /*! /file vsprintf.h
  *
- *  /brief *
+ *  /brief
+ *
  */
 
 
@@ -8,11 +9,13 @@
   #define BLASxOFF_VSTRINGF_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
-  // Vector Datatype
-  #include "../../datatypes/inc/vector.h"
+  // -- BLAS Datatypes
+  #include "../../gnd/datatypes/inc/vector.h"
+  // #include "../../gnd/datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus

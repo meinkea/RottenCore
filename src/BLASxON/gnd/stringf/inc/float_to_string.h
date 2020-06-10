@@ -13,7 +13,8 @@
 
   #include <stdio.h>
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
   // ----- DEFINE CONSTANTS -----
