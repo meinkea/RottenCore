@@ -11,8 +11,8 @@
  */
 
 
-#ifndef BLASxON_MATRIX_H
-  #define BLASxON_MATRIX_H
+#ifndef BLASxON__MATRIX_H
+  #define BLASxON__MATRIX_H
   
   
   /*! General Matrix datastructure used by BLAS 
@@ -32,6 +32,6 @@
   extern struct matrix new_matrix;
   
   
-#endif // BLASxON_MATRIX_H
+#endif // BLASxON__MATRIX_H
 
 

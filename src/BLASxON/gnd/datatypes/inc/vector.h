@@ -7,8 +7,8 @@
  */
 
 
-#ifndef BLASxON_VECTOR_H
-  #define BLASxON_VECTOR_H
+#ifndef BLASxON__VECTOR_H
+  #define BLASxON__VECTOR_H
  
   
   //! General Vector datastructure used by BLAS 
@@ -26,6 +26,6 @@
   extern struct vector new_vector;
 
 
-#endif // BLASxON_VECTOR_H
+#endif // BLASxON__VECTOR_H
 
 

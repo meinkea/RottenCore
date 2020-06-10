@@ -5,14 +5,14 @@
  */
 
 
-#ifndef BLASxOFF_BLAS_DATATYPES_H
-  #define BLASxOFF_BLAS_DATATYPES_H
+#ifndef BLASxON__BLAS_DATATYPES_H
+  #define BLASxON__BLAS_DATATYPES_H
  
  
   #include "inc/vector.h"
   #include "inc/matrix.h"
  
  
-#endif // BLASxOFF_BLAS_DATATYPES_H
+#endif // BLASxON__BLAS_DATATYPES_H
 
 
