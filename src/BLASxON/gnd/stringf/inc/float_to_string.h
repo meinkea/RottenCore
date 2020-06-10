@@ -14,7 +14,7 @@
   #include <stdio.h>
 
   // -- CPU Architecture
-  #include "../../gnd/cpu_architecture/cpu_architecture.h"
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
   // ----- DEFINE CONSTANTS -----

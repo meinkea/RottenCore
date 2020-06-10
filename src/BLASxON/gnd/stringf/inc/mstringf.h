@@ -10,12 +10,12 @@
 
 
   // -- CPU Architecture
-  #include "../../gnd/cpu_architecture/cpu_architecture.h"
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
   // -- BLAS Datatypes
   // #include "../../gnd/datatypes/inc/vector.h"
-  #include "../../gnd/datatypes/inc/matrix.h"
+  #include "../../datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
