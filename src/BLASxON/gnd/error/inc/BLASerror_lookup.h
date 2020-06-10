@@ -3,8 +3,8 @@
  */
 
 
-#ifndef BLASxOFF_BLASERROR_LOOKUP
-  #define BLASxOFF_BLASERROR_LOOKUP
+#ifndef BLASxON_BLASERROR_LOOKUP
+  #define BLASxON_BLASERROR_LOOKUP
 
 
   #ifdef __cplusplus
@@ -19,6 +19,6 @@
     }
   #endif
 
-#endif // BLASxOFF_BLASERROR_LOOKUP
+#endif // BLASxON_BLASERROR_LOOKUP
 
 

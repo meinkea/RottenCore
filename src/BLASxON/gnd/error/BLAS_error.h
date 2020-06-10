@@ -5,12 +5,12 @@
  */
 
 
-#ifndef BLASxOFF_BLASERROR_H
-  #define BLASxOFF_BLASERROR_H
+#ifndef BLASxON_BLASERROR_H
+  #define BLASxON_BLASERROR_H
 
 
   #include "inc/BLASerror_lookup.h"
   #include "BLAS_error_codes.h"
 
 
-#endif // BLASxOFF_BLASERROR_H
+#endif // BLASxON_BLASERROR_H

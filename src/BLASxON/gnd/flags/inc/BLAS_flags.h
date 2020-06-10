@@ -1,10 +1,10 @@
-/*! 
+/*! /file BLAS_flag.h
  *
  */
 
 
-#ifndef BLASxOFF_BLAS_FLAGS_GENERAL
-  #define BLASxOFF_BLAS_FLAGS_GENERAL
+#ifndef BLASxON_BLAS_FLAGS_GENERAL
+  #define BLASxON_BLAS_FLAGS_GENERAL
 
 
   #ifndef ALLOCATED_F
@@ -12,6 +12,6 @@
   #endif // ALLOCATED_F
 
 
-#endif // BLASxOFF_BLAS_FLAGS_GENERAL
+#endif // BLASxON_BLAS_FLAGS_GENERAL
 
 
