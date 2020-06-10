@@ -3,16 +3,16 @@
  */
 
 
-#ifndef BLASxOFF__M__LUdecomp_H
-  #define BLASxOFF__M__LUdecomp_H
+#ifndef BLASxON__M__LUdecomp_H
+  #define BLASxON__M__LUdecomp_H
 
 
   #include "esp_attr.h"
 
 
   // Datatypes
-  #include "../../BLAS+ON/gnd/datatypes/inc/vector.h"
-  #include "../../BLAS+ON/gnd/datatypes/inc/matrix.h"
+  #include "../../BLASxON/gnd/datatypes/inc/vector.h"
+  #include "../../BLASxON/gnd/datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
@@ -33,6 +33,6 @@
   #endif 
 
 
-#endif // BLASxOFF__M__LUdecomp_H
+#endif // BLASxON__M__LUdecomp_H
 
 

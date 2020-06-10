@@ -3,15 +3,15 @@
  */
 
 
-#ifndef BLASxOFF_V__V_NORM1_V_H
-  #define BLASxOFF_V__V_NORM1_V_H
+#ifndef BLASxON_V__V_NORM1_V_H
+  #define BLASxON_V__V_NORM1_V_H
 
 
   #include "esp_attr.h"
 
 
   // Vector Datatype
-  #include "../../BLAS+ON/gnd/datatypes/inc/vector.h"
+  #include "../../BLASxON/gnd/datatypes/inc/vector.h"
 
 
   #ifdef __cplusplus
@@ -33,6 +33,6 @@
   #endif 
 
 
-#endif // BLASxOFF_V__V_NORM1_V_H
+#endif // BLASxON_V__V_NORM1_V_H
 
 
