@@ -12,7 +12,7 @@
   #define ROTTENCORE_H
 
 
-  #include "BLAS+ON/BLAS+ON.h"
+  #include "BLASxON/BLASxON.h"
   #include "LinAlg/LinAlg.h"
 
 
