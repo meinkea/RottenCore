@@ -11,6 +11,7 @@ char * BLASerror_msg;
 
 char * BLASerror_lookup(const int error) {
 
+// TODO:: change to switch statement
   if(error == 0) {
     BLASerror_msg = "No Error.  All is well ^-^";
 
@@ -40,6 +41,9 @@ char * BLASerror_lookup(const int error) {
 
   } else if(error == BLAS_ERR_REQUEST_GREATER_THEN_NAME_SIZE_MAX) {
     BLASerror_msg = "BLAS_ERR_REQUEST_GREATER_THEN_NAME_SIZE_MAX";
+
+  } else if(error == BLAS_ERR_MATRIX_IS_DEGENERATE) {
+    BLASerror_msg = "BLAS_ERR_MATRIX_IS_DEGENERATE";
 
   } else {
     BLASerror_msg = "SERIOUS ERROR!!! FAILED TO CATCH MALLOC FAILURE!";
