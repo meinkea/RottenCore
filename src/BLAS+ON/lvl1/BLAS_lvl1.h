@@ -5,8 +5,8 @@
  */
 
 
-#ifndef BLAS+ON__LEVEL1_H
-  #define BLAS+ON__LEVEL1_H
+#ifndef BLASxON__LEVEL1_H
+  #define BLASxON__LEVEL1_H
 
 
   #include "inc/v__v_add_s.h"
@@ -17,12 +17,9 @@
   #include "inc/v__v_subtract_v.h"
   #include "inc/v__v_mult_v.h"
 
-  #include "inc/s__v_dot_v.h"
   #include "inc/s__v_elementsum.h"
-  #include "inc/v__v_cross3_v.h"
 
 
-
-#endif // BLAS+ON__LEVEL1_H
+#endif // BLASxON__LEVEL1_H
 
 

@@ -1,17 +1,17 @@
-/*! /file s__v_dot_v.h
+/*! /file v__v_cross3_v.h
  *
  */
 
 
-#ifndef BLASxOFF_S__V_DOT_V_H
-  #define BLASxOFF_S__V_DOT_V_H
+#ifndef BLASxON_V__V_CROSS3_v_H
+  #define BLASxON_V__V_CROSS3_v_H
 
 
   #include "esp_attr.h"
 
 
   // Vector Datatype
-  #include "../../gnd/datatypes/inc/vector.h"
+  #include "../../BLASxON/gnd/datatypes/inc/vector.h"
 
 
   #ifdef __cplusplus
@@ -19,8 +19,8 @@
   #endif
 
 
-    void IRAM_ATTR s__v_dot_v(
-      float * sclRes,
+    void IRAM_ATTR v__v_cross3_v(
+      struct vector * vRes,
       const struct vector * vOprA,
       const struct vector * vOprB
     )
@@ -33,6 +33,6 @@
   #endif 
 
 
-#endif // BLASxOFF_S__V_DOT_V_H
+#endif // BLASxON_V__V_CROSS3_V_H
 
 
