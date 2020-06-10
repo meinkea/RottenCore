@@ -5,13 +5,15 @@
  */
 
 
-#ifndef BLASxOFF__VM__M_REIGEN_M_H
-  #define BLASxOFF__VM__M_REIGEN_M_H
+#ifndef BLASxON__VM__M_REIGEN_M_H
+  #define BLASxON__VM__M_REIGEN_M_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
+  // -- BLAS Datatypes
   #include "../../gnd/datatypes/inc/vector.h"
   #include "../../gnd/datatypes/inc/matrix.h"
 
@@ -21,7 +23,7 @@
   #endif
 
 
-   float IRAM_ATTR vm__m_REigen_m(
+   float BLASxON__FuncHEAD vm__m_REigen_m(
       struct vector * vEigenVal,
       struct matrix * mEigenVec,
       const struct matrix * mA,
@@ -36,6 +38,6 @@
   #endif
 
 
-#endif // BLASxOFF__VM__M_REIGEN_M_H
+#endif // BLASxON__VM__M_REIGEN_M_H
 
 

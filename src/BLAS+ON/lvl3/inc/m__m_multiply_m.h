@@ -5,13 +5,16 @@
  */
 
 
-#ifndef BLASxOFF__M__M_MULTIPLY_M_H
-  #define BLASxOFF__M__M_MULTIPLY_M_H
+#ifndef BLASxON__M__M_MULTIPLY_M_H
+  #define BLASxON__M__M_MULTIPLY_M_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
+  // -- BLAS Datatypes
+  // #include "../../gnd/datatypes/inc/vector.h"
   #include "../../gnd/datatypes/inc/matrix.h"
 
 
@@ -20,7 +23,7 @@
   #endif
 
 
-    void IRAM_ATTR m__m_multiply_m(
+    void BLASxON__FuncHEAD m__m_multiply_m(
       struct matrix * mRes,
       struct matrix * mOprA,
       struct matrix * mOprB
@@ -34,6 +37,6 @@
   #endif
 
 
-#endif // BLASxOFF__M__M_MULTIPLY_M_H
+#endif // BLASxON__M__M_MULTIPLY_M_H
 
 
