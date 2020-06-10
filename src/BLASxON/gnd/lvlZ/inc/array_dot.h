@@ -3,8 +3,8 @@
  */
 
 
-#ifndef BLASxOFF__ARRAY_DOT_H
-  #define BLASxOFF__ARRAY_DOT_H
+#ifndef BLASxON__ARRAY_DOT_H
+  #define BLASxON__ARRAY_DOT_H
 
 
   // -- CPU Architecture
@@ -40,6 +40,6 @@
   #endif 
 
 
-#endif // BLASxOFF__ARRAY_DOT_H
+#endif // BLASxON__ARRAY_DOT_H
 
 

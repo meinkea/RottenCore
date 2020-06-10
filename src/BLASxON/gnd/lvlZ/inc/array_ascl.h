@@ -7,8 +7,8 @@
  */
 
 
-#ifndef ARRAY_ASCL_H
-  #define ARRAY_ASCL_H
+#ifndef BLASxON__ARRAY_ASCL_H
+  #define BLASxON__ARRAY_ASCL_H
 
 
   // -- CPU Architecture
@@ -42,6 +42,6 @@
   #endif 
 
 
-#endif // ARRAY_ASCL_H
+#endif // BLASxON__ARRAY_ASCL_H
 
 

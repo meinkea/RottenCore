@@ -5,8 +5,8 @@
  */
 
 
-#ifndef ARRAY_MULT_H
-  #define ARRAY_MULT_H
+#ifndef BLASxON__ARRAY_MULT_H
+  #define BLASxON__ARRAY_MULT_H
 
 
   // -- CPU Architecture
@@ -40,6 +40,6 @@
 #endif 
 
 
-#endif // ARRAY_MULT_H
+#endif // BLASxON__ARRAY_MULT_H
 
 

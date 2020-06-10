@@ -5,8 +5,8 @@
  */
 
 
-#ifndef ARRAY_SUBTRACT_H
-  #define ARRAY_SUBTRACT_H
+#ifndef BLASxON__ARRAY_SUBTRACT_H
+  #define BLASxON__ARRAY_SUBTRACT_H
 
 
   // -- CPU Architecture
@@ -40,6 +40,6 @@
 #endif 
 
 
-#endif // ARRAY_SUBTRACT_H
+#endif // BLASxON__ARRAY_SUBTRACT_H
 
 

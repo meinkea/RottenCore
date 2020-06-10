@@ -5,8 +5,8 @@
  */
 
 
-#ifndef ARRAY_COPY_H
-  #define ARRAY_COPY_H
+#ifndef BLASxON__ARRAY_COPY_H
+  #define BLASxON__ARRAY_COPY_H
 
 
   // -- CPU Architecture
@@ -38,6 +38,6 @@
   #endif 
 
 
-#endif // ARRAY_COPY_H
+#endif // BLASxON__ARRAY_COPY_H
 
 

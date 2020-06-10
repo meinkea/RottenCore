@@ -5,8 +5,8 @@
  */
 
 
-#ifndef ARRAY_SWAP_H
-  #define ARRAY_SWAP_H
+#ifndef BLASxON__ARRAY_SWAP_H
+  #define BLASxON__ARRAY_SWAP_H
 
 
   // -- CPU Architecture
@@ -39,6 +39,6 @@
 #endif 
 
 
-#endif // ARRAY_SWAP_H
+#endif // BLASxON__ARRAY_SWAP_H
 
  

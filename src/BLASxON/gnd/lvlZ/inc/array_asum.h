@@ -5,8 +5,8 @@
  */
 
 
-#ifndef ARRAY_ASUM_H
-  #define ARRAY_ASUM_H
+#ifndef BLASxON__ARRAY_ASUM_H
+  #define BLASxON__ARRAY_ASUM_H
 
 
   #include "esp_attr.h"
@@ -40,6 +40,6 @@
   #endif 
 
 
-#endif // ARRAY_ASUM_H
+#endif // BLASxON__ARRAY_ASUM_H
 
 
