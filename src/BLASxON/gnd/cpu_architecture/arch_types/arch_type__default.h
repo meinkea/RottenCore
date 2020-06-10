@@ -3,15 +3,15 @@
  */
 
 
-#ifndef BLASxOFF__ARCH_TYPE__DEFAULT_H
- #define BLASxOFF__ARCH_TYPE__DEFAULT_H
+#ifndef BLASxON__ARCH_TYPE__DEFAULT_H
+ #define BLASxON__ARCH_TYPE__DEFAULT_H
 
 
-  #define BLASxOFF_FuncHEAD
+  #define BLASxON_FuncHEAD
 
   
 
 
-#define BLASxOFF__ARCH_TYPE__DEFAULT_H
+#define BLASxON__ARCH_TYPE__DEFAULT_H
 
 

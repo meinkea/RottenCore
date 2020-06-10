@@ -3,15 +3,15 @@
  */
 
 
-#ifndef BLASxOFF__ARCH_TYPE__AVR_H
- #define BLASxOFF__ARCH_TYPE__AVR_H
+#ifndef BLASxON__ARCH_TYPE__AVR_H
+ #define BLASxON__ARCH_TYPE__AVR_H
 
 
-  #define BLASxOFF__PrimaryDataType (float)
+  #define BLASxON__PrimaryDataType (float)
 
-  #define BLASxOFF__FuncHEAD
+  #define BLASxON__FuncHEAD
 
 
-#define BLASxOFF__ARCH_TYPE__AVR_H
+#define BLASxON__ARCH_TYPE__AVR_H
 
 
