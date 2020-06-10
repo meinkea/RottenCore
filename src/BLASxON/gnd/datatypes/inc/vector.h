@@ -1,12 +1,14 @@
-/*! Data type for Vatricies used in Linear Algebra
+/*! /file vector.h
+ *
+ *  Data type for Vatricies used in Linear Algebra
  *
  *
  *
  */
 
 
-#ifndef BLASxOFF_VECTOR_H
-  #define BLASxOFF_VECTOR_H
+#ifndef BLASxON_VECTOR_H
+  #define BLASxON_VECTOR_H
  
   
   //! General Vector datastructure used by BLAS 
@@ -24,6 +26,6 @@
   extern struct vector new_vector;
 
 
-#endif // BLASxOFF_VECTOR_H
+#endif // BLASxON_VECTOR_H
 
 

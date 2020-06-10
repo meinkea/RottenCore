@@ -1,4 +1,6 @@
-/*! Data type for Matricies used in Linear Algebra
+/*! /file matrix.h 
+ * 
+ * Data type for Matricies used in Linear Algebra
  * 
  * 
  * 
@@ -9,8 +11,8 @@
  */
 
 
-#ifndef BLASxOFF_MATRIX_H
-  #define BLASxOFF_MATRIX_H
+#ifndef BLASxON_MATRIX_H
+  #define BLASxON_MATRIX_H
   
   
   /*! General Matrix datastructure used by BLAS 
@@ -30,6 +32,6 @@
   extern struct matrix new_matrix;
   
   
-#endif // BLASxOFF_MATRIX_H
+#endif // BLASxON_MATRIX_H
 
 
