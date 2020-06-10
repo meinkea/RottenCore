@@ -7,7 +7,7 @@
 
 
 // Level 0
-#include "../../BLAS+ON/gnd/lvlZ/inc/array_dot.h"
+#include "../../BLASxON/gnd/lvlZ/inc/array_dot.h"
 
 
 void s__v_dot_v(
