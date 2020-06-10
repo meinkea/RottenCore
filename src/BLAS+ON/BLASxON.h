@@ -1,4 +1,4 @@
-/*! /file BLAS+ON.h
+/*! /file BLASxON.h
  *  
  *  Arduino Header file that flattens the includes
  *
@@ -8,8 +8,8 @@
  */
 
 
-#ifndef ROTTENCORE__BLAS+ON_H
-  #define ROTTENCORE__BLAS+ON_H
+#ifndef ROTTENCORE__BLASxON_H
+  #define ROTTENCORE__BLASxON_H
 
 
   #include "gnd/gnd.h"
@@ -18,6 +18,6 @@
   #include "lvl3/BLAS_lvl3.h"
 
 
-#endif // ROTTENCORE__BLAS+ON_H
+#endif // ROTTENCORE__BLASxON_H
 
 
