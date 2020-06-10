@@ -1,10 +1,10 @@
-/*! /file vaxsy.h
+/*! /file v__v_sub_v.h
  *
  */
 
 
-#ifndef BLASxON_V__V_SUBTRACT_V_H
-  #define BLASxON_V__V_SUBTRACT_V_H
+#ifndef BLASxON_V__V_SUB_V_H
+  #define BLASxON_V__V_SUB_V_H
 
 
   // -- CPU Architecture
@@ -21,7 +21,7 @@
   #endif
 
 
-    void BLASxON__FuncHEAD v__v_subtract_v(
+    void BLASxON__FuncHEAD v__v_sub_v(
       struct vector * vRes,
       const struct vector * vOprA,
       const struct vector * vOprB
@@ -35,6 +35,6 @@
   #endif 
 
 
-#endif // BLASxON_V__V_SUBTRACT_V_H
+#endif // BLASxON_V__V_SUB_V_H
 
 
