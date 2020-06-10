@@ -9,10 +9,8 @@
   #define BLAS_MEMORY_COMMON_H
 
 
-  // esp32 header files
-  #include "esp_log.h"       // https://github.com/espressif/esp-idf/blob/master/components/log/include/esp_log.h
-  #include "esp_heap_caps.h" // https://github.com/espressif/esp-idf/blob/master/components/heap/include/esp_heap_caps.h
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
   #include <stddef.h> // ~/.arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/1.22.0-80-g6c4433a-5.2.0/lib/gcc/xtensa-esp32-elf/5.2.0/include/stddef.h

@@ -12,10 +12,12 @@
   #include <stdint.h>
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
-  // General Matrix Datatype
+  // -- BLAS Datatypes
+  // #include "../../datatypes/inc/vector.h"
   #include "../../datatypes/inc/matrix.h"
 
 
@@ -36,6 +38,7 @@
   #ifdef __cplusplus
     }
   #endif
+
 
 #endif // BLASxOFF__M__INIT_H
 
