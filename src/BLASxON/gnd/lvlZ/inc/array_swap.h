@@ -9,7 +9,8 @@
   #define ARRAY_SWAP_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../gnd/cpu_architecture/cpu_architecture.h"
 
 
 #ifdef __cplusplus
