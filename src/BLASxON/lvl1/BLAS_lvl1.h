@@ -15,7 +15,7 @@
 
   #include "inc/v__v_add_v.h"
   #include "inc/v__v_subtract_v.h"
-  #include "inc/v__v_mult_v.h"
+  #include "inc/v__v_emult_v.h"
 
   #include "inc/s__v_elementsum.h"
 
