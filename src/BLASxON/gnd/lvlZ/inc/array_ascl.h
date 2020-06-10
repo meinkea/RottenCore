@@ -12,7 +12,7 @@
 
 
   // -- CPU Architecture
-  #include "../../gnd/cpu_architecture/cpu_architecture.h"
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
   #ifdef __cplusplus
