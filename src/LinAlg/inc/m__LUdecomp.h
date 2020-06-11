@@ -1,4 +1,4 @@
-/*! /file m__LUdecomp.h.h
+/*! /file m__LUdecomp.h
  *
  */
 
@@ -7,10 +7,11 @@
   #define BLASxON__M__LUdecomp_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../BLASxON/gnd/cpu_architecture/cpu_architecture.h"
 
 
-  // Datatypes
+  // -- BLAS Datatypes
   #include "../../BLASxON/gnd/datatypes/inc/vector.h"
   #include "../../BLASxON/gnd/datatypes/inc/matrix.h"
 
@@ -20,9 +21,10 @@
   #endif
 
 
-    void IRAM_ATTR m__LUdecomp(
-
-
+    void BLASxON__FuncHEAD m__LUdecomp(
+      struct matrix mLU,
+      struct matrix mA,
+      struct vector P
     )
       __attribute__((nonull))
     ;

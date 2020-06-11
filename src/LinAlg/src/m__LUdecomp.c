@@ -6,10 +6,10 @@
 #include "../inc/m__LUdecomp.h"
 
 
-
 void m__LUdecomp(
-  struct matrix * mRes,
-  const struct vector * mOpr
+      struct matrix mLU,
+      struct matrix mA,
+      struct vector P
 ) {
   
 }
