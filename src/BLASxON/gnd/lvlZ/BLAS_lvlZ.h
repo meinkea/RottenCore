@@ -12,6 +12,7 @@
   #include "inc/array_add.h"
   #include "inc/array_ascl.h"
   #include "inc/array_asum.h"
+  #include "inc/array_compare.h"
   #include "inc/array_copy.h"
   #include "inc/array_dot.h"
   #include "inc/array_mscl.h"
