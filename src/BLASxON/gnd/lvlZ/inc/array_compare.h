@@ -22,10 +22,10 @@
   #endif
 
 
-    define BLASxON__COMPARE_TOLERANCE 0.0001f
+   #define BLASxON__COMPARE_TOLERANCE 0.0001f
 
 
-    static inline int BLASxON_FuncHEAD
+    static inline int BLASxON__FuncHEAD
       __attribute__((always_inline))
       __attribute__((nonull))
     array_compare(
@@ -35,9 +35,9 @@
       const unsigned int end     //!< Last element index to loop across
     ) {
       for(unsigned int I=start; I<end; ++I) {
-        if(fabs(arrOprA-arrOprB) > BLASxON__COMPARE_TOLERANCE) return -1;
+        if(fabs(arrOprA[I]-arrOprB[I]) > BLASxON__COMPARE_TOLERANCE) return 0;
       }
-      return 0;
+      return 1;
     }
 
 
