@@ -125,7 +125,7 @@ void m__m_multiply_m(
 //
 
 
-inline void IRAM_ATTR mmultm_favor_result_matrix(
+inline void BLASxON__FuncHEAD mmultm_favor_result_matrix(
   float * mR,
   float * mA,
   float * mB,
