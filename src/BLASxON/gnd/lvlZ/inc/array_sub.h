@@ -21,7 +21,7 @@
   static void BLASxON__FuncHEAD
     __attribute__((always_inline))
     __attribute__((nonull))
-  array_substract(
+  array_sub(
     float * arrRes,      //!< Array pointer where the result will be stored
     const float * arrOprA,     //!< Array pointer for the 1st operand
     const float * arrOprB,     //!< Array pointer for the 2nd operand
