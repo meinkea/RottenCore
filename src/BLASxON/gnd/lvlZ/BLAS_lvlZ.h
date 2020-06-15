@@ -18,7 +18,7 @@
   #include "inc/array_dotjump.h"
   #include "inc/array_mscl.h"
   #include "inc/array_mult.h"
-  #include "inc/array_set.h"
+  #include "inc/array_setscl.h"
   #include "inc/array_subtract.h"
   #include "inc/array_swap.h"
   #include "inc/array_zero.h"
