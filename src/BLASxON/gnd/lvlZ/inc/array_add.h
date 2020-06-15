@@ -18,7 +18,7 @@
   #endif
 
 
-    static inline void BLASxON_FuncHEAD
+    static inline void BLASxON__FuncHEAD
       __attribute__((always_inline))
       __attribute__((nonull))
     array_add(

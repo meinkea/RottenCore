@@ -18,7 +18,7 @@
 #endif
 
 
-  static void IRAM_ATTR
+  static void BLASxON__FuncHEAD
     __attribute__((always_inline))
     __attribute__((nonull))
   array_zero(
