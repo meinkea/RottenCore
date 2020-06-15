@@ -15,6 +15,7 @@
   #include "inc/array_compare.h"
   #include "inc/array_copy.h"
   #include "inc/array_dot.h"
+  #include "inc/array_dotjump.h"
   #include "inc/array_mscl.h"
   #include "inc/array_mult.h"
   #include "inc/array_set.h"
