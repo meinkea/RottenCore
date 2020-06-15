@@ -21,7 +21,7 @@
   static void BLASxON__FuncHEAD
     __attribute__((always_inline))
     __attribute__((nonull))
-  array_set(
+  array_setscl(
     float * arrDst,            //!< Array pointer where the result will be stored
     const float sclSrc,        //!< Float for the source scalar
     const unsigned int start,  //!< Starting element index to loop across
