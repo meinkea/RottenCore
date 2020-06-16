@@ -27,6 +27,7 @@
   #include "inc/array_dot.h"
   #include "inc/array_dotjump.h"
   #include "inc/array_mscl.h"
+  #include "inc/array_mscladd.h"
   #include "inc/array_mult.h"
   #include "inc/array_setscl.h"
   #include "inc/array_sub.h"
