@@ -1,6 +1,16 @@
-/*! Wrapper for level Z header files
+/*! /file BLAS_lvlZ.h
  *
- *  These are aimed to have zero-overhead loop optimizations
+ *  Wrapper for level Z header files
+ *
+ *  These routines operate on continous segments of memory, called arrays.
+ *  Unlike vectors and matrices, arrays here are not concidered to have a dimension.
+ *  So the term array is used when the dimension of the data dose not matter.
+ *  These routines simply take pointer for each array they operate on and a few additional arguments.
+ *  These additional operations are typicalls a start index and end index.
+ *  
+ *  We all point down here.  You'll point too. ;)
+ *  
+ *  These are aimed to have zero-overhead loop optimizations.
  *
  */
 
