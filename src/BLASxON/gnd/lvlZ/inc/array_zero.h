@@ -27,15 +27,15 @@
     const unsigned int end     //!< Last element index to loop across
   ) {
     for(unsigned int I=start; I<end; ++I) {
-      arrDst[I] = 0.0;
+      arrDst[I] = 0.0f;
     }
     return;
   }
 
 
 #ifdef __cplusplus
-  } 
-#endif 
+  }
+#endif
 
 
 #endif // BLASxON__ARRAY_SET_H
