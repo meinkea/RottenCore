@@ -11,18 +11,18 @@
 
 
 void v__v_sub_s(
-    struct vector * vRes,
-    const struct vector * vOpr,
-    const float * sclOpr
-  ) {
-    array_ascl(
-      vRes->v,
-      vOpr->v,
-      (-1.0F) * (*sclOpr),
-      0,
-      vRes->l
-    ); 
-    return;
+  struct vector * vRes,
+  const struct vector * vOpr,
+  const float * sclOpr
+) {
+  array_ascl(
+    vRes->v,
+    vOpr->v,
+    (-1.0F) * (*sclOpr),
+    0,
+    vRes->l
+  ); 
+  return;
 }
 
 
