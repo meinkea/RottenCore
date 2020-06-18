@@ -18,12 +18,13 @@
   /*! General Matrix datastructure used by BLAS 
    */
   struct matrix {
-    int flags;       //!< Flags for matrix
-    unsigned int r;  //!< Number of Rows in matrix
-    unsigned int c;  //!< Number of Columns in matrix
-    unsigned int l;  //!< Number of elements in matrix (l=r*c)
-    char * name;     //!< String identifier for matrix
-    float ** m;      //!< Data pointer for matrix
+    int flags;          //!< Flags for matrix
+    unsigned int r;     //!< Number of Rows in matrix
+    unsigned int c;     //!< Number of Columns in matrix
+    unsigned int l;     //!< Number of elements in matrix (l=r*c)
+    char * name;        //!< String identifier for matrix
+    unsigned int * rp;  //!< Indices for Row Pivot
+    float ** m;         //!< Data pointer for matrix
   };
   
   

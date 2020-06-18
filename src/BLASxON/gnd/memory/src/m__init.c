@@ -52,6 +52,7 @@ int matrix_construction(
 
 int matrix_data_malloc(
   float *** DATAptr,
+  unsigned int ** rpDATAptr,
   const unsigned int r,
   const unsigned int c,
   const uint32_t memory_capability
@@ -104,7 +105,13 @@ int matrix_check_size(
 
 
 // Matrix Initialization
-int m__init(struct matrix * pM, const unsigned int r, const unsigned int c, const char * name, const uint32_t memory_capability) {
+int m__init(
+  struct matrix * pM,
+  const unsigned int r,
+  const unsigned int c,
+  const char * name,
+  const uint32_t memory_capability
+) {
   int ret = 0;
 
   ret = minit_check(pM, c, r, name, memory_capability);
@@ -130,11 +137,18 @@ int m__init(struct matrix * pM, const unsigned int r, const unsigned int c, cons
 
 
 // Main building function
-int matrix_construction(struct matrix * pM, const unsigned int r, const unsigned int c, const char * name, const uint32_t memory_capability) {
+int matrix_construction(
+  struct matrix * pM,
+  const unsigned int r,
+  const unsigned int c,
+  const char * name,
+  const uint32_t memory_capability
+) {
   int ret = 0;
 
   float ** DATAptr;
-  ret = matrix_data_malloc(&DATAptr, r, c, memory_capability);
+  unsigned int * rpDATAptr;
+  ret = matrix_data_malloc(&DATAptr, &rpDATAptr, r, c, memory_capability);
   if(ret != 0) return ret;
 
   matrix_setup(pM, DATAptr, r, c, name);
@@ -143,17 +157,27 @@ int matrix_construction(struct matrix * pM, const unsigned int r, const unsigned
 }
 
 //  ----- Allocates matrix memory -----
-int matrix_data_malloc(float *** DATAptr, const unsigned int r, const unsigned int c, const uint32_t memory_capability) {
-  float ** Mptr = NULL;
+int matrix_data_malloc(
+  float *** DATAptr,
+  unsigned int ** rpDATAptr,
+  const unsigned int r,
+  const unsigned int c,
+  const uint32_t memory_capability
+) {
+  float ** MDptr = NULL;
+  unsigned int * RPptr = NULL;
 
   // Allocating Memory
-  Mptr = (float **) heap_caps_malloc(sizeofmatrix(r, c), memory_capability);
+  MDptr = (float **) heap_caps_malloc(sizeofmatrix(r, c), memory_capability);
+  RPptr = (unsigned int *) heap_caps_malloc(r * sizeof(unsigned int), memory_capability);
 
   // Check to see if memory allocation was successful
-  if(Mptr == NULL) return BLAS_ERR_MEMORY_ALLOCATION_FAILURE;
+  if(MDptr == NULL) return BLAS_ERR_MEMORY_ALLOCATION_FAILURE;
+  if(RPptr == NULL) return BLAS_ERR_MEMORY_ALLOCATION_FAILURE;
 
   // Hand over new float * array
-  *DATAptr = Mptr;
+  *DATAptr = MDptr;
+  *rpDATAptr = RPptr;
 
   return 0;
 }
@@ -166,7 +190,13 @@ size_t sizeofmatrix(const unsigned int r, const unsigned int c) {
 
 
 //  ----- Setup Matrix -----
-matrix_setup(struct matrix * pM, const float ** DATAptr, const unsigned int r, const unsigned int c, const char * name) {
+matrix_setup(
+  struct matrix * pM,
+  const float ** DATAptr,
+  const unsigned int r,
+  const unsigned int c,
+  const char * name
+) {
 
   matrix_linkup(DATAptr, r, c);
 
@@ -188,7 +218,11 @@ matrix_setup(struct matrix * pM, const float ** DATAptr, const unsigned int r, c
 }
 
 // ----- Linkup Matrix -----
-void matrix_linkup(float ** DATAptr, const unsigned int r, const unsigned int c) {
+void matrix_linkup(
+  float ** DATAptr,
+  const unsigned int r,
+  const unsigned int c
+) {
   float * link = (float *) (DATAptr + r);
 
   for(unsigned int I=0; I<r; ++I) {
@@ -205,7 +239,13 @@ void matrix_linkup(float ** DATAptr, const unsigned int r, const unsigned int c)
 //   ###-----### ================================ ###-----###   //
 
 
-int minit_check(const struct matrix * pM, const unsigned int r, const unsigned int c, const char * name, const uint32_t memory_capability) {
+int minit_check(
+  const struct matrix * pM,
+  const unsigned int r,
+  const unsigned int c,
+  const char * name,
+  const uint32_t memory_capability
+) {
   int ret = 0;
 
   ret = matrix_check_alloc(pM);

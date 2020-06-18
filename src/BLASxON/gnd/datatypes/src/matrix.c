@@ -14,6 +14,7 @@ extern struct matrix new_matrix = {
   .c = 0,
   .l = 0,
   .name = NULL,
+  .rp = NULL,
   .m = NULL
 };
 

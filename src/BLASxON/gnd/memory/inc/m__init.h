@@ -9,9 +9,6 @@
   #define BLASxOFF__M__INIT_H
 
 
-  #include <stdint.h>
-
-
   // -- CPU Architecture
   #include "../../cpu_architecture/cpu_architecture.h"
 
@@ -25,7 +22,7 @@
     extern "C" {
   #endif
 
-    int IRAM_ATTR m__init(
+    int BLASxON__FuncHEAD m__init(
       struct matrix * pM,
       const unsigned int r,
       const unsigned int c,
