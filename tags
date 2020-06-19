@@ -1,0 +1,312 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOCATED_F	src/BLASxON/gnd/flags/inc/BLAS_flags.h	11;"	d
+BLASXON__TESTCASES__LEVELZ__TEST_ARRAY_ADD_H	src/test_cases/levelZ/lvlz_test_cases.h	7;"	d
+BLAS_ERR_MATRIX_IS_DEGENERATE	src/BLASxON/gnd/error/BLAS_error_codes.h	24;"	d
+BLAS_ERR_MEMORY_ALLOCATION_FAILURE	src/BLASxON/gnd/error/BLAS_error_codes.h	13;"	d
+BLAS_ERR_MEMORY_ALLOCATION_SIZE_NOT_AVALIABLE	src/BLASxON/gnd/error/BLAS_error_codes.h	15;"	d
+BLAS_ERR_MEMORY_ALREADY_ALLOCATED	src/BLASxON/gnd/error/BLAS_error_codes.h	14;"	d
+BLAS_ERR_MEMORY_ALREADY_FREE	src/BLASxON/gnd/error/BLAS_error_codes.h	16;"	d
+BLAS_ERR_REQUEST_GREATER_THEN_MATRIX_COL_MAX	src/BLASxON/gnd/error/BLAS_error_codes.h	18;"	d
+BLAS_ERR_REQUEST_GREATER_THEN_MATRIX_ROW_MAX	src/BLASxON/gnd/error/BLAS_error_codes.h	17;"	d
+BLAS_ERR_REQUEST_GREATER_THEN_MATRIX_SIZE_MAX	src/BLASxON/gnd/error/BLAS_error_codes.h	19;"	d
+BLAS_ERR_REQUEST_GREATER_THEN_NAME_SIZE_MAX	src/BLASxON/gnd/error/BLAS_error_codes.h	21;"	d
+BLAS_ERR_REQUEST_GREATER_THEN_VECTOR_SIZE_MAX	src/BLASxON/gnd/error/BLAS_error_codes.h	20;"	d
+BLAS_MEMORY_COMMON_H	src/BLASxON/gnd/memory/inc/common.h	9;"	d
+BLAS_PRINT_ARRAY_NUM_DIGITS	src/BLASxON/gnd/stringf/inc/float_to_string.h	37;"	d
+BLAS_PRINT_DEC_MAX_DIGITS	src/BLASxON/gnd/stringf/inc/float_to_string.h	27;"	d
+BLAS_PRINT_DEC_MODL	src/BLASxON/gnd/stringf/inc/float_to_string.h	31;"	d
+BLAS_PRINT_MAX_NUM	src/BLASxON/gnd/stringf/inc/float_to_string.h	22;"	d
+BLAS_PRINT_MIN_NUM	src/BLASxON/gnd/stringf/inc/float_to_string.h	23;"	d
+BLAS_PRINT_SPACE_BETWEEN_ELEMENTS	src/BLASxON/gnd/stringf/inc/float_to_string.h	34;"	d
+BLAS_PRINT_SPACE_BETWEEN_ENTRY	src/BLASxON/gnd/stringf/inc/float_to_string.h	41;"	d
+BLAS_PRINT_WHL_MAX_DIGITS	src/BLASxON/gnd/stringf/inc/float_to_string.h	26;"	d
+BLAS_PRINT_WHL_MODL	src/BLASxON/gnd/stringf/inc/float_to_string.h	30;"	d
+BLASerror_lookup	src/BLASxON/gnd/error/src/BLASerror_lookup.c	/^char * BLASerror_lookup(const int error) {$/;"	f
+BLASerror_msg	src/BLASxON/gnd/error/src/BLASerror_lookup.c	/^char * BLASerror_msg;$/;"	v
+BLASxOFF_GND_H	src/BLASxON/gnd/gnd.h	7;"	d
+BLASxOFF_MEMORY_LIMITS_H	src/BLASxON/gnd/memory/inc/memory_limits.h	7;"	d
+BLASxOFF_STRINGF_H	src/BLASxON/gnd/stringf/BLAS_stringf.h	9;"	d
+BLASxOFF__BLAS_MEMORY_H	src/BLASxON/gnd/memory/BLAS_memory.h	9;"	d
+BLASxOFF__M__INIT_H	src/BLASxON/gnd/memory/inc/m__init.h	9;"	d
+BLASxOFF__V__INIT_H	src/BLASxON/gnd/memory/inc/v__init.h	9;"	d
+BLASxON_BLASERROR_H	src/BLASxON/gnd/error/BLAS_error.h	9;"	d
+BLASxON_BLASERROR_LOOKUP	src/BLASxON/gnd/error/inc/BLASerror_lookup.h	7;"	d
+BLASxON_BLAS_ERROR_CODES_H	src/BLASxON/gnd/error/BLAS_error_codes.h	9;"	d
+BLASxON_BLAS_FLAGS_GENERAL	src/BLASxON/gnd/flags/inc/BLAS_flags.h	7;"	d
+BLASxON_BLAS_UTIL_H	src/BLASxON/gnd/util/BLAS_util.h	2;"	d
+BLASxON_FLOAT_TO_STRING_H	src/BLASxON/gnd/stringf/inc/float_to_string.h	11;"	d
+BLASxON_FuncHEAD	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__default.h	10;"	d
+BLASxON_MSTRINGF_H	src/BLASxON/gnd/stringf/inc/mstringf.h	9;"	d
+BLASxON_MSUMDIAG_H	src/BLASxON/lvl2/inc/msumdiag.h	10;"	d
+BLASxON_STRINGF_COMMON_H	src/BLASxON/gnd/stringf/inc/stringf_common.h	7;"	d
+BLASxON_S__V_DOT_V_H	src/LinAlg/inc/s__v_dot_v.h	7;"	d
+BLASxON_S__V_NORM1_H	src/LinAlg/inc/s__v_norm1.h	7;"	d
+BLASxON_S__V_NORM2_H	src/LinAlg/inc/s__v_norm2.h	16;"	d
+BLASxON_S__V_NORM2_V_H	src/LinAlg/inc/s__v_norm2_v.h	16;"	d
+BLASxON_VSTRINGF_H	src/BLASxON/gnd/stringf/inc/vstringf.h	9;"	d
+BLASxON_V__V_ADD_S_H	src/BLASxON/lvl1/inc/v__v_add_s.h	9;"	d
+BLASxON_V__V_ADD_V_H	src/BLASxON/lvl1/inc/v__v_add_v.h	7;"	d
+BLASxON_V__V_CROSS3_v_H	src/LinAlg/inc/v__v_cross3_v.h	7;"	d
+BLASxON_V__V_MULT_S_H	src/BLASxON/lvl1/inc/v__v_mult_s.h	7;"	d
+BLASxON_V__V_MULT_V_H	src/BLASxON/lvl1/inc/v__v_emult_v.h	7;"	d
+BLASxON_V__V_NORM1_V_H	src/LinAlg/inc/s__v_norm1_v.h	7;"	d
+BLASxON_V__V_SUB_S_H	src/BLASxON/lvl1/inc/v__v_sub_s.h	7;"	d
+BLASxON_V__V_SUB_V_H	src/BLASxON/lvl1/inc/v__v_sub_v.h	7;"	d
+BLASxON__ARCH_TYPE__AVR_H	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__avr.h	15;"	d
+BLASxON__ARCH_TYPE__AVR_H	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__avr.h	7;"	d
+BLASxON__ARCH_TYPE__DEFAULT_H	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__default.h	15;"	d
+BLASxON__ARCH_TYPE__DEFAULT_H	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__default.h	7;"	d
+BLASxON__ARCH_TYPE__ESP32_H	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__esp32.h	7;"	d
+BLASxON__ARRAY_ADD_H	src/BLASxON/gnd/lvlZ/inc/array_add.h	9;"	d
+BLASxON__ARRAY_ASCL_H	src/BLASxON/gnd/lvlZ/inc/array_ascl.h	11;"	d
+BLASxON__ARRAY_ASUM_H	src/BLASxON/gnd/lvlZ/inc/array_asum.h	9;"	d
+BLASxON__ARRAY_COMPARE_H	src/BLASxON/gnd/lvlZ/inc/array_compare.h	9;"	d
+BLASxON__ARRAY_COPY_H	src/BLASxON/gnd/lvlZ/inc/array_copy.h	9;"	d
+BLASxON__ARRAY_DOTJUMP_H	src/BLASxON/gnd/lvlZ/inc/array_dotjump.h	7;"	d
+BLASxON__ARRAY_DOT_H	src/BLASxON/gnd/lvlZ/inc/array_dot.h	7;"	d
+BLASxON__ARRAY_EMAX_H	src/BLASxON/gnd/lvlZ/inc/array_emax.h	7;"	d
+BLASxON__ARRAY_MSCLADD_H	src/BLASxON/gnd/lvlZ/inc/array_mscladd.h	11;"	d
+BLASxON__ARRAY_MSCL_H	src/BLASxON/gnd/lvlZ/inc/array_mscl.h	9;"	d
+BLASxON__ARRAY_MULT_H	src/BLASxON/gnd/lvlZ/inc/array_mult.h	9;"	d
+BLASxON__ARRAY_SETSCL_H	src/BLASxON/gnd/lvlZ/inc/array_setscl.h	9;"	d
+BLASxON__ARRAY_SET_H	src/BLASxON/gnd/lvlZ/inc/array_zero.h	9;"	d
+BLASxON__ARRAY_SUB_H	src/BLASxON/gnd/lvlZ/inc/array_sub.h	9;"	d
+BLASxON__ARRAY_SWAP_H	src/BLASxON/gnd/lvlZ/inc/array_swap.h	9;"	d
+BLASxON__BLAS_DATATYPES_H	src/BLASxON/gnd/datatypes/BLAS_datatypes.h	9;"	d
+BLASxON__BLAS_LEVELZ_H	src/BLASxON/gnd/lvlZ/BLAS_lvlZ.h	19;"	d
+BLASxON__COMPARE_TOLERANCE	src/BLASxON/gnd/lvlZ/inc/array_compare.h	25;"	d
+BLASxON__CPU_ARCHITECTURE_H	src/BLASxON/gnd/cpu_architecture/cpu_architecture.h	7;"	d
+BLASxON__FuncHEAD	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__avr.h	12;"	d
+BLASxON__FuncHEAD	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__esp32.h	15;"	d
+BLASxON__LEVEL1_H	src/BLASxON/lvl1/BLAS_lvl1.h	9;"	d
+BLASxON__LEVEL2_H	src/BLASxON/lvl2/BLAS_lvl2.h	9;"	d
+BLASxON__LEVEL3_H	src/BLASxON/lvl3/BLAS_lvl3.h	7;"	d
+BLASxON__MATRIX_H	src/BLASxON/gnd/datatypes/inc/matrix.h	15;"	d
+BLASxON__M__CLONE_H	src/BLASxON/gnd/util/inc/m__clone.h	9;"	d
+BLASxON__M__COPY_H	src/BLASxON/gnd/util/inc/m__copy.h	11;"	d
+BLASxON__M__LUdecomp_H	src/LinAlg/inc/m__LUdecomp.h	7;"	d
+BLASxON__M__M_ADD_M_H	src/BLASxON/lvl2/inc/m__m_add_m.h	7;"	d
+BLASxON__M__M_ADD_S_H	src/BLASxON/lvl2/inc/m__m_add_s.h	7;"	d
+BLASxON__M__M_ADD_S_H	src/BLASxON/lvl2/inc/m__m_sub_m.h	7;"	d
+BLASxON__M__M_DIV_S_H	src/BLASxON/lvl2/inc/m__m_div_s.h	7;"	d
+BLASxON__M__M_MULTIPLY_M_H	src/BLASxON/lvl3/inc/m__m_multiply_m.h	9;"	d
+BLASxON__M__M_MULT_S_H	src/BLASxON/lvl2/inc/m__m_mult_s.h	7;"	d
+BLASxON__M__M_SUB_S_H	src/BLASxON/lvl2/inc/m__m_sub_s.h	7;"	d
+BLASxON__M__SETCOLUMN_H	src/BLASxON/gnd/util/inc/m__setcolumn.h	7;"	d
+BLASxON__M__SETROW_H	src/BLASxON/gnd/util/inc/m__setrow.h	7;"	d
+BLASxON__M__SET_H	src/BLASxON/gnd/util/inc/m__set.h	7;"	d
+BLASxON__M__SWAPROW_H	src/BLASxON/gnd/util/inc/m__swaprow.h	7;"	d
+BLASxON__M__ZERO_H	src/BLASxON/gnd/util/inc/m__zero.h	9;"	d
+BLASxON__NOT_TESTED	src/test_cases/levelZ/src/printHelp.c	3;"	d	file:
+BLASxON__PrimaryDataType	src/BLASxON/gnd/cpu_architecture/arch_types/arch_type__avr.h	10;"	d
+BLASxON__S__V_ELEMENTSUM_H	src/BLASxON/lvl1/inc/s__v_elementsum.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__PRINTHELP_H	src/test_cases/levelZ/inc/printHelp.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_ADD_H	src/test_cases/levelZ/inc/test__array_add.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_ASCL_H	src/test_cases/levelZ/inc/test__array_ascl.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_ASUM_H	src/test_cases/levelZ/inc/test__array_asum.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_COPY_H	src/test_cases/levelZ/inc/test__array_copy.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_DOTJUMP_H	src/test_cases/levelZ/inc/test__array_dotjump.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_DOT_H	src/test_cases/levelZ/inc/test__array_dot.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_MSCLADD_H	src/test_cases/levelZ/inc/test__array_mscladd.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_MSCL_H	src/test_cases/levelZ/inc/test__array_mscl.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_MULT_H	src/test_cases/levelZ/inc/test__array_mult.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_SETSCL_H	src/test_cases/levelZ/inc/test__array_setscl.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_SUB_H	src/test_cases/levelZ/inc/test__array_sub.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_SWAP_H	src/test_cases/levelZ/inc/test__array_swap.h	7;"	d
+BLASxON__TESTCASES__LEVELZ__TEST_ARRAY_ZERO_H	src/test_cases/levelZ/inc/test__array_zero.h	7;"	d
+BLASxON__TEST_CASES__1LVL__LVLZ_TEST_ARRAYS_H	src/test_cases/1lvl/1lvl_test_cases.h	7;"	d
+BLASxON__TEST_CASES__LEVELZ__LVLZ_TEST_ARRAYS_H	src/test_cases/levelZ/inc/lvlz_test_arrays.h	7;"	d
+BLASxON__VECTOR_H	src/BLASxON/gnd/datatypes/inc/vector.h	11;"	d
+BLASxON__VM__M_REIGEN_M_H	src/BLASxON/lvl3/inc/vm__m_REigen_m.h	9;"	d
+BLASxON__V__COPY_H	src/BLASxON/gnd/util/inc/v__copy.h	9;"	d
+BLASxON__V__LOAD_H	src/BLASxON/gnd/util/inc/v__load.h	9;"	d
+BLASxON__V__M_MULT_V_H	src/BLASxON/lvl2/inc/v__m_mult_v.h	7;"	d
+BLASxON__V__SET_H	src/BLASxON/gnd/util/inc/v__set.h	7;"	d
+BLASxON__V__SWAP_H	src/BLASxON/gnd/util/inc/v__swap.h	9;"	d
+BLASxON__V__ZERO_H	src/BLASxON/gnd/util/inc/v__zero.h	9;"	d
+CASES	src/test_cases/levelZ/src/test__array_add.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_ascl.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_asum.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_copy.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_dot.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_dotjump.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_mscl.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_mscladd.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_mult.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_setscl.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_sub.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_swap.c	4;"	d	file:
+CASES	src/test_cases/levelZ/src/test__array_zero.c	4;"	d	file:
+CHAR_0_	src/BLASxON/gnd/stringf/inc/float_to_string.h	48;"	d
+DECIMAL_INDEX	src/BLASxON/gnd/stringf/inc/float_to_string.h	45;"	d
+INIT_ELE_CHAR_LEN	src/test_cases/levelZ/src/printHelp.c	1;"	d	file:
+L	src/test_cases/levelZ/inc/lvlz_test_arrays.h	10;"	d
+LINALG__M__ROWPIVOT_H	src/LinAlg/inc/m__rowpivot.h	7;"	d
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_ascl.c	29;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_ascl.c	48;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_asum.c	29;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_asum.c	48;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_copy.c	46;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_dot.c	29;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_dot.c	48;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_mscl.c	29;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_mscl.c	48;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_mscladd.c	29;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_mscladd.c	48;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_setscl.c	29;"	d	file:
+LVLZ_TEST_VAR2	src/test_cases/levelZ/src/test__array_setscl.c	48;"	d	file:
+MATRIX_COL_MAX	src/BLASxON/gnd/memory/inc/memory_limits.h	17;"	d
+MATRIX_ROW_MAX	src/BLASxON/gnd/memory/inc/memory_limits.h	16;"	d
+MATRIX_SIZE_MAX	src/BLASxON/gnd/memory/inc/memory_limits.h	14;"	d
+MAX_ITERATIONS	src/BLASxON/lvl3/src/vm__m_REigen_m.c	18;"	d	file:
+NAME_CHAR_LENGTH_MAX	src/BLASxON/gnd/memory/inc/memory_limits.h	20;"	d
+NEW_VECTOR	src/test_cases/1lvl/src/1lvl_test_data.c	12;"	d	file:
+ROTTENCORE_H	src/RottenCore.h	12;"	d
+ROTTENCORE__BLASxON_H	src/BLASxON/BLASxON.h	12;"	d
+ROTTENCORE__LINALG_H	src/LinAlg/LinAlg.h	9;"	d
+ROTTENCORE__TEST_CASES_H	src/test_cases/test_cases.h	7;"	d
+ROTTENCORE__TEST_CASES__1LVL__1LVL_TEST_DATA_H	src/test_cases/1lvl/inc/1lvl_test_data.h	7;"	d
+ROTTENCORE__TEST_CASES__1LVL__INIT_1LVL_TEST_DATA_H	src/test_cases/1lvl/inc/init_1lvl_test_data.h	7;"	d
+SEQ_ELE_CHAR_LEN	src/test_cases/levelZ/src/printHelp.c	2;"	d	file:
+VECTOR_SIZE_MAX	src/BLASxON/gnd/memory/inc/memory_limits.h	11;"	d
+arr0	src/test_cases/levelZ/inc/lvlz_test_arrays.h	/^  float arr0[L] = {  0.0f,  0.0f,  0.0f,  0.0f};$/;"	v
+arr1	src/test_cases/levelZ/inc/lvlz_test_arrays.h	/^  float arr1[L] = {  1.0f,  2.0f,  3.0f,  4.0f};$/;"	v
+arr2	src/test_cases/levelZ/inc/lvlz_test_arrays.h	/^  float arr2[L] = {  5.0f,  5.0f, -3.0f,  3.0f};$/;"	v
+arr3	src/test_cases/levelZ/inc/lvlz_test_arrays.h	/^  float arr3[L] = { -1.5f, -1.5f, -1.5f, -1.5f};$/;"	v
+arr4	src/test_cases/levelZ/inc/lvlz_test_arrays.h	/^  float arr4[L] = {  5.0f,  4.0f,  3.0f,  2.0f};$/;"	v
+arr5	src/test_cases/levelZ/inc/lvlz_test_arrays.h	/^  float arr5[L] = { -8.0f, 16.0f,  2.0f,  0.0f};$/;"	v
+array_add	src/BLASxON/gnd/lvlZ/inc/array_add.h	/^    array_add($/;"	f
+array_ascl	src/BLASxON/gnd/lvlZ/inc/array_ascl.h	/^    array_ascl($/;"	f
+array_asum	src/BLASxON/gnd/lvlZ/inc/array_asum.h	/^    array_asum($/;"	f
+array_compare	src/BLASxON/gnd/lvlZ/inc/array_compare.h	/^    array_compare($/;"	f
+array_copy	src/BLASxON/gnd/lvlZ/inc/array_copy.h	/^    array_copy($/;"	f
+array_dot	src/BLASxON/gnd/lvlZ/inc/array_dot.h	/^    array_dot($/;"	f
+array_dotjump	src/BLASxON/gnd/lvlZ/inc/array_dotjump.h	/^    array_dotjump($/;"	f
+array_emax	src/BLASxON/gnd/lvlZ/inc/array_emax.h	/^    array_emax($/;"	f
+array_mscl	src/BLASxON/gnd/lvlZ/inc/array_mscl.h	/^  array_mscl($/;"	f
+array_mscladd	src/BLASxON/gnd/lvlZ/inc/array_mscladd.h	/^  array_mscladd($/;"	f
+array_mult	src/BLASxON/gnd/lvlZ/inc/array_mult.h	/^  array_mult($/;"	f
+array_setscl	src/BLASxON/gnd/lvlZ/inc/array_setscl.h	/^  array_setscl($/;"	f
+array_sub	src/BLASxON/gnd/lvlZ/inc/array_sub.h	/^  array_sub($/;"	f
+array_swap	src/BLASxON/gnd/lvlZ/inc/array_swap.h	/^  array_swap($/;"	f
+array_zero	src/BLASxON/gnd/lvlZ/inc/array_zero.h	/^  array_zero($/;"	f
+batchTest	src/test_cases/levelZ/src/printHelp.c	/^unsigned int batchTest($/;"	f
+c	src/BLASxON/gnd/datatypes/inc/matrix.h	/^    unsigned int c;     \/\/!< Number of Columns in matrix$/;"	m	struct:matrix
+check_limits	src/BLASxON/gnd/stringf/inc/float_to_string.h	/^  check_limits($/;"	f
+check_vinit	src/BLASxON/gnd/memory/src/v__init.c	/^int check_vinit(const struct vector * pV, const unsigned int l, const char * name, const uint32_t memory_capability) {$/;"	f
+clear_string	src/BLASxON/gnd/stringf/inc/float_to_string.h	/^  clear_string($/;"	f
+flags	src/BLASxON/gnd/datatypes/inc/matrix.h	/^    int flags;          \/\/!< Flags for matrix$/;"	m	struct:matrix
+flags	src/BLASxON/gnd/datatypes/inc/vector.h	/^    int flags;      \/\/!< Flags for vector$/;"	m	struct:vector
+float_to_string	src/BLASxON/gnd/stringf/inc/float_to_string.h	/^  float_to_string($/;"	f
+get_num_sign	src/BLASxON/gnd/stringf/inc/float_to_string.h	/^  get_num_sign($/;"	f
+init_1lvl_test_arrays	src/test_cases/1lvl/src/init_1lvl_test_data.c	/^void init_1lvl_test_arrays($/;"	f
+l	src/BLASxON/gnd/datatypes/inc/matrix.h	/^    unsigned int l;     \/\/!< Number of elements in matrix (l=r*c)$/;"	m	struct:matrix
+l	src/BLASxON/gnd/datatypes/inc/vector.h	/^    unsigned int l; \/\/!< Number of elements in vector$/;"	m	struct:vector
+m	src/BLASxON/gnd/datatypes/inc/matrix.h	/^    float ** m;         \/\/!< Data pointer for matrix$/;"	m	struct:matrix
+m__LUdecomp	src/LinAlg/src/m__LUdecomp.c	/^void m__LUdecomp($/;"	f
+m__clone	src/BLASxON/gnd/util/src/m__clone.c	/^void m__clone($/;"	f
+m__copy	src/BLASxON/gnd/util/src/m__copy.c	/^void m__copy(struct matrix * mDst, const struct matrix * mSrc) {$/;"	f
+m__init	src/BLASxON/gnd/memory/src/m__init.c	/^int m__init($/;"	f
+m__m_add_m	src/BLASxON/lvl2/src/m__m_add_m.c	/^void m__m_add_m($/;"	f
+m__m_add_s	src/BLASxON/lvl2/src/m__m_add_s.c	/^void m__m_add_s($/;"	f
+m__m_div_s	src/BLASxON/lvl2/src/m__m_div_s.c	/^void m__m_div_s($/;"	f
+m__m_mult_s	src/BLASxON/lvl2/src/m__m_mult_s.c	/^void m__m_mult_s($/;"	f
+m__m_multiply_m	src/BLASxON/lvl3/src/m__m_multiply_m.c	/^void m__m_multiply_m($/;"	f
+m__m_sub_m	src/BLASxON/lvl2/src/m__m_sub_m.c	/^void m__m_sub_m($/;"	f
+m__m_sub_s	src/BLASxON/lvl2/src/m__m_sub_s.c	/^void m__m_sub_s($/;"	f
+m__rowpivot	src/LinAlg/src/m__rowpivot.c	/^void m__rowpivot($/;"	f
+m__set	src/BLASxON/gnd/util/src/m__set.c	/^void m__set($/;"	f
+m__setcolumn	src/BLASxON/gnd/util/src/m__setcolumn.c	/^void m__setcolumn($/;"	f
+m__setrow	src/BLASxON/gnd/util/src/m__setrow.c	/^void m__setrow($/;"	f
+m__swaprow	src/BLASxON/gnd/util/src/m__swaprow.c	/^void m__swaprow($/;"	f
+m__zero	src/BLASxON/gnd/util/src/m__zero.c	/^void m__zero(struct matrix * mDst) {$/;"	f
+matrix	src/BLASxON/gnd/datatypes/inc/matrix.h	/^  struct matrix {$/;"	s
+matrix_check_alloc	src/BLASxON/gnd/memory/src/m__init.c	/^int matrix_check_alloc(struct matrix * pM) {$/;"	f
+matrix_check_size	src/BLASxON/gnd/memory/src/m__init.c	/^int matrix_check_size(unsigned int r, unsigned int c) {$/;"	f
+matrix_construction	src/BLASxON/gnd/memory/src/m__init.c	/^int matrix_construction($/;"	f
+matrix_data_malloc	src/BLASxON/gnd/memory/src/m__init.c	/^int matrix_data_malloc($/;"	f
+matrix_linkup	src/BLASxON/gnd/memory/src/m__init.c	/^void matrix_linkup($/;"	f
+matrix_setup	src/BLASxON/gnd/memory/src/m__init.c	/^matrix_setup($/;"	f
+minit_check	src/BLASxON/gnd/memory/src/m__init.c	/^int minit_check($/;"	f
+mmultm_favor_result_matrix	src/BLASxON/lvl3/src/m__m_multiply_m.c	/^inline void BLASxON__FuncHEAD mmultm_favor_result_matrix($/;"	f
+mstringf	src/BLASxON/gnd/stringf/src/mstringf.c	/^char * mstringf(char * buf, const struct matrix * mSrc) {$/;"	f
+mstringf_buffersize	src/BLASxON/gnd/stringf/src/mstringf.c	/^size_t mstringf_buffersize(const struct matrix * mOpr) {$/;"	f
+mstringf_free_buffer	src/BLASxON/gnd/stringf/src/mstringf.c	/^int mstringf_free_buffer(char * buf) {$/;"	f
+mstringf_init_buffer	src/BLASxON/gnd/stringf/src/mstringf.c	/^int mstringf_init_buffer(char ** buf, const struct matrix * mSrc) {$/;"	f
+msumdiag	src/BLASxON/lvl2/src/msumdiag.c	/^void msumdiag(float * resScl, struct matrix * mOpr) {$/;"	f
+name	src/BLASxON/gnd/datatypes/inc/matrix.h	/^    char * name;        \/\/!< String identifier for matrix$/;"	m	struct:matrix
+name	src/BLASxON/gnd/datatypes/inc/vector.h	/^    char * name;    \/\/!< String identifier for vector$/;"	m	struct:vector
+new_matrix	src/BLASxON/gnd/datatypes/src/matrix.c	/^extern struct matrix new_matrix = {$/;"	v	typeref:struct:matrix
+new_vector	src/BLASxON/gnd/datatypes/src/vector.c	/^extern struct vector new_vector = {$/;"	v	typeref:struct:vector
+place_decimal	src/BLASxON/gnd/stringf/inc/float_to_string.h	/^  place_decimal($/;"	f
+printArray	src/test_cases/levelZ/src/printHelp.c	/^int printArray(char * buf, float * arr, unsigned int len) {$/;"	f
+printKeyAns	src/test_cases/levelZ/src/printHelp.c	/^int printKeyAns(char * buf, float * key, float * ans, unsigned int len) {$/;"	f
+printPassFail	src/test_cases/levelZ/src/printHelp.c	/^int printPassFail(char * buf, int pf) {$/;"	f
+r	src/BLASxON/gnd/datatypes/inc/matrix.h	/^    unsigned int r;     \/\/!< Number of Rows in matrix$/;"	m	struct:matrix
+rp	src/BLASxON/gnd/datatypes/inc/matrix.h	/^    unsigned int * rp;  \/\/!< Indices for Row Pivot$/;"	m	struct:matrix
+s__v_dot_v	src/LinAlg/src/s__v_dot_v.c	/^void s__v_dot_v($/;"	f
+s__v_elementsum	src/BLASxON/lvl1/src/s__v_elementsum.c	/^void s__v_elementsum($/;"	f
+s__v_norm1	src/LinAlg/src/s__v_norm1.c	/^void s__v_norm1($/;"	f
+s__v_norm1_v	src/LinAlg/src/s__v_norm1_v.c	/^void s__v_norm1_v($/;"	f
+s__v_norm2	src/LinAlg/src/s__v_norm2.c	/^void s__v_norm2($/;"	f
+s__v_norm2_v	src/LinAlg/src/s__v_norm2_v.c	/^void s__v_norm2_v($/;"	f
+sizeofmatrix	src/BLASxON/gnd/memory/src/m__init.c	/^size_t sizeofmatrix(const unsigned int r, const unsigned int c) {$/;"	f
+sizeofvector	src/BLASxON/gnd/memory/src/v__init.c	/^size_t sizeofvector(const unsigned int l) {$/;"	f
+sv0	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v0 = NEW_VECTOR; extern char * sv0 = NULL;$/;"	v
+sv1	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v1 = NEW_VECTOR; extern char * sv1 = NULL;$/;"	v
+sv2	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v2 = NEW_VECTOR; extern char * sv2 = NULL;$/;"	v
+sv3	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v3 = NEW_VECTOR; extern char * sv3 = NULL;$/;"	v
+sv4	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v4 = NEW_VECTOR; extern char * sv4 = NULL;$/;"	v
+sv5	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v5 = NEW_VECTOR; extern char * sv5 = NULL;$/;"	v
+svR	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector vR = NEW_VECTOR; extern char * svR = NULL;$/;"	v
+test__array_add	src/test_cases/levelZ/src/test__array_add.c	/^int test__array_add(char * buf) {$/;"	f
+test__array_ascl	src/test_cases/levelZ/src/test__array_ascl.c	/^int test__array_ascl(char * buf) {$/;"	f
+test__array_asum	src/test_cases/levelZ/src/test__array_asum.c	/^int test__array_asum(char * buf) {$/;"	f
+test__array_copy	src/test_cases/levelZ/src/test__array_copy.c	/^int test__array_copy(char * buf) {$/;"	f
+test__array_dot	src/test_cases/levelZ/src/test__array_dot.c	/^int test__array_dot(char * buf) {$/;"	f
+test__array_dotjump	src/test_cases/levelZ/src/test__array_dotjump.c	/^int test__array_dotjump(char * buf) {$/;"	f
+test__array_mscl	src/test_cases/levelZ/src/test__array_mscl.c	/^int test__array_mscl(char * buf) {$/;"	f
+test__array_mscladd	src/test_cases/levelZ/src/test__array_mscladd.c	/^int test__array_mscladd(char * buf) {$/;"	f
+test__array_mult	src/test_cases/levelZ/src/test__array_mult.c	/^int test__array_mult(char * buf) {$/;"	f
+test__array_setscl	src/test_cases/levelZ/src/test__array_setscl.c	/^int test__array_setscl(char * buf) {$/;"	f
+test__array_sub	src/test_cases/levelZ/src/test__array_sub.c	/^int test__array_sub(char * buf) {$/;"	f
+test__array_swap	src/test_cases/levelZ/src/test__array_swap.c	/^int test__array_swap(char * buf) {$/;"	f
+test__array_zero	src/test_cases/levelZ/src/test__array_zero.c	/^int test__array_zero(char * buf) {$/;"	f
+v	src/BLASxON/gnd/datatypes/inc/vector.h	/^    float * v;      \/\/!< Data pointer for vector$/;"	m	struct:vector
+v0	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v0 = NEW_VECTOR; extern char * sv0 = NULL;$/;"	v	typeref:struct:vector
+v1	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v1 = NEW_VECTOR; extern char * sv1 = NULL;$/;"	v	typeref:struct:vector
+v2	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v2 = NEW_VECTOR; extern char * sv2 = NULL;$/;"	v	typeref:struct:vector
+v3	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v3 = NEW_VECTOR; extern char * sv3 = NULL;$/;"	v	typeref:struct:vector
+v4	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v4 = NEW_VECTOR; extern char * sv4 = NULL;$/;"	v	typeref:struct:vector
+v5	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector v5 = NEW_VECTOR; extern char * sv5 = NULL;$/;"	v	typeref:struct:vector
+vR	src/test_cases/1lvl/src/1lvl_test_data.c	/^extern struct vector vR = NEW_VECTOR; extern char * svR = NULL;$/;"	v	typeref:struct:vector
+v__copy	src/BLASxON/gnd/util/src/v__copy.c	/^void v__copy(struct vector * vDst, const struct vector * vSrc) {$/;"	f
+v__init	src/BLASxON/gnd/memory/src/v__init.c	/^int v__init(struct vector * pV, const unsigned int l, const char * name, const uint32_t memory_capability) {$/;"	f
+v__load	src/BLASxON/gnd/util/src/v__load.c	/^void v__load(struct vector * vDst) {$/;"	f
+v__m_mult_v	src/BLASxON/lvl2/src/v__m_mult_v.c	/^void v__m_mult_v($/;"	f
+v__set	src/BLASxON/gnd/util/src/v__set.c	/^void v__set($/;"	f
+v__swap	src/BLASxON/gnd/util/src/v__swap.c	/^void v__swap(struct vector * vSrcDstA, struct vector * vSrcDstB) {$/;"	f
+v__v_add_s	src/BLASxON/lvl1/src/v__v_add_s.c	/^void v__v_add_s($/;"	f
+v__v_add_v	src/BLASxON/lvl1/src/v__v_add_v.c	/^void v__v_add_v($/;"	f
+v__v_cross3_v	src/LinAlg/src/v__v_cross3_v.c	/^void v__v_cross3_v($/;"	f
+v__v_emult_v	src/BLASxON/lvl1/src/v__v_emult_v.c	/^void v__v_emult_v($/;"	f
+v__v_mult_s	src/BLASxON/lvl1/src/v__v_mult_s.c	/^void v__v_mult_s($/;"	f
+v__v_sub_s	src/BLASxON/lvl1/src/v__v_sub_s.c	/^void v__v_sub_s($/;"	f
+v__v_sub_v	src/BLASxON/lvl1/src/v__v_sub_v.c	/^void v__v_sub_v($/;"	f
+v__zero	src/BLASxON/gnd/util/src/v__zero.c	/^void v__zero(struct vector * vDst) {$/;"	f
+vector	src/BLASxON/gnd/datatypes/inc/vector.h	/^  struct vector {$/;"	s
+vector_check_alloc	src/BLASxON/gnd/memory/src/v__init.c	/^int vector_check_alloc(const struct vector * pV) {$/;"	f
+vector_check_size	src/BLASxON/gnd/memory/src/v__init.c	/^int vector_check_size(const unsigned int l) {$/;"	f
+vector_construction	src/BLASxON/gnd/memory/src/v__init.c	/^int vector_construction(struct vector * pV, const unsigned int l, const char * name, const uint32_t memory_capability) {$/;"	f
+vector_data_malloc	src/BLASxON/gnd/memory/src/v__init.c	/^int vector_data_malloc(float ** DATAptr, const unsigned int l, const uint32_t memory_capability) {$/;"	f
+vector_setup	src/BLASxON/gnd/memory/src/v__init.c	/^void vector_setup(struct vector * pV, float * DATAptr, const unsigned int l, const char * name) {$/;"	f
+vm__m_REigen_m	src/BLASxON/lvl3/src/vm__m_REigen_m.c	/^float vm__m_REigen_m($/;"	f
+vstringf	src/BLASxON/gnd/stringf/src/vstringf.c	/^char * vstringf(char * buf, const struct vector * vSrc) {$/;"	f
+vstringf_buffersize	src/BLASxON/gnd/stringf/src/vstringf.c	/^size_t vstringf_buffersize(const struct vector * vOpr) {$/;"	f
+vstringf_free_buffer	src/BLASxON/gnd/stringf/src/vstringf.c	/^int vstringf_free_buffer(char * buf) {$/;"	f
+vstringf_init_buffer	src/BLASxON/gnd/stringf/src/vstringf.c	/^int vstringf_init_buffer(char ** buf, const struct vector * vSrc) {$/;"	f
