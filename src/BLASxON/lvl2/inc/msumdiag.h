@@ -2,6 +2,7 @@
  *
  *  /brief Sums the diagonal elements of a matrix
  *
+ *  TODO :: Rename to s__m_trace
  */
 
 
