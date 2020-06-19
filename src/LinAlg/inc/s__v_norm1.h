@@ -7,11 +7,13 @@
   #define BLASxON_S__V_NORM1_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../BLASxON/gnd/cpu_architecture/cpu_architecture.h"
 
 
-  // Vector Datatype
+  // -- BLAS Datatypes
   #include "../../BLASxON/gnd/datatypes/inc/vector.h"
+  // #include "../../BLASxON/gnd/datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
@@ -19,7 +21,7 @@
   #endif
 
 
-    void IRAM_ATTR s__v_norm1(
+    void BLASxON__FuncHEAD s__v_norm1(
       float * sclRes,
       const struct vector * vOpr
     )

@@ -7,11 +7,13 @@
   #define BLASxON_V__V_CROSS3_v_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../BLASxON/gnd/cpu_architecture/cpu_architecture.h"
 
 
-  // Vector Datatype
+  // -- BLAS Datatypes
   #include "../../BLASxON/gnd/datatypes/inc/vector.h"
+  // #include "../../BLASxON/gnd/datatypes/inc/matrix.h"
 
 
   #ifdef __cplusplus
@@ -19,7 +21,7 @@
   #endif
 
 
-    void IRAM_ATTR v__v_cross3_v(
+    void BLASxON__FuncHEAD v__v_cross3_v(
       struct vector * vRes,
       const struct vector * vOprA,
       const struct vector * vOprB
