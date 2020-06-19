@@ -7,8 +7,8 @@
  */
 
  
-#ifndef BLASxOFF_FLOAT_TO_STRING_H
-  #define BLASxOFF_FLOAT_TO_STRING_H
+#ifndef BLASxON_FLOAT_TO_STRING_H
+  #define BLASxON_FLOAT_TO_STRING_H
 
 
   #include <stdio.h>
@@ -191,6 +191,6 @@
   }
 #endif
 
-#endif // BLASxOFF_FLOAT_TO_STRING_H
+#endif // BLASxON_FLOAT_TO_STRING_H
 
 

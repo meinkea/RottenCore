@@ -3,8 +3,8 @@
  */
 
 
-#ifndef BLASxOFF_STRINGF_COMMON_H
-  #define BLASxOFF_STRINGF_COMMON_H
+#ifndef BLASxON_STRINGF_COMMON_H
+  #define BLASxON_STRINGF_COMMON_H
 
 
   // esp32 header files
@@ -16,6 +16,6 @@
   #include "../../error/BLAS_error_codes.h"
 
 
-#endif // BLASxOFF_STRINGF_COMMON_H
+#endif // BLASxON_STRINGF_COMMON_H
 
 

@@ -9,7 +9,8 @@
   #define BLASxON__ARRAY_ASUM_H
 
 
-  #include "esp_attr.h"
+  // -- CPU Architecture
+  #include "../../cpu_architecture/cpu_architecture.h"
 
 
   #ifdef __cplusplus

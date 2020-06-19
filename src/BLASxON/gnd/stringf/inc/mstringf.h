@@ -5,8 +5,8 @@
  */
 
 
-#ifndef BLASxOFF_MSTRINGF_H
-  #define BLASxOFF_MSTRINGF_H
+#ifndef BLASxON_MSTRINGF_H
+  #define BLASxON_MSTRINGF_H
 
 
   // -- CPU Architecture
@@ -55,6 +55,6 @@
   #endif
 
 
-#endif // BLASxOFF_VSTRINGF_H
+#endif // BLASxON_VSTRINGF_H
 
 
