@@ -24,7 +24,7 @@
     void BLASxON__FuncHEAD m__m_add_s(
       struct matrix * mRes,
       const struct matrix * mOprA,
-      const float sOprB
+      const struct matrix * mOprB
     )
       __attribute__((nonull))
     ;
@@ -35,6 +35,6 @@
   #endif
 
 
-#endif // BLASTxON__M__M_ADD_S_H
+#endif // BLASxON__M__M_ADD_S_H
 
 
