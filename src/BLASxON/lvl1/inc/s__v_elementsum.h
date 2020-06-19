@@ -3,8 +3,8 @@
  */
 
 
-#ifndef BLASxON_S__V_ELEMENTSUM_H
-  #define BLASxON_S__V_ELEMENTSUM_H
+#ifndef BLASxON__S__V_ELEMENTSUM_H
+  #define BLASxON__S__V_ELEMENTSUM_H
 
 
   // -- CPU Architecture
