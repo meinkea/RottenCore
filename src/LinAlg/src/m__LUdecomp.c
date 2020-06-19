@@ -1,4 +1,9 @@
-/*! /file m__LUdecomp.c
+/*! \file m__LUdecomp.c
+ *
+ *  \brief Factors a square matrix into two triangle matricies.
+ *
+ *  It is always possible to factor a square matrix into a
+ *    lower traingle matrix and an upper triangle matrix.
  *
  */
 
