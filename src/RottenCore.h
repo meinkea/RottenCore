@@ -14,6 +14,7 @@
 
   #include "BLASxON/BLASxON.h"
   #include "LinAlg/LinAlg.h"
+  #include "test_cases/test_cases.h"
 
 
 #endif // ROTTENCORE_H
