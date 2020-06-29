@@ -23,13 +23,14 @@ void setup() {
   test_pf[ 3] = test__array_copy(buf);     Serial.println(buf);
   test_pf[ 4] = test__array_dot(buf);      Serial.println(buf);
   test_pf[ 5] = test__array_dotjump(buf);  Serial.println(buf);
-  test_pf[ 6] = test__array_mscl(buf);     Serial.println(buf);
-  test_pf[ 7] = test__array_mscladd(buf);  Serial.println(buf);
-  test_pf[ 8] = test__array_mult(buf);     Serial.println(buf);
-  test_pf[ 9] = test__array_setscl(buf);   Serial.println(buf);
-  test_pf[10] = test__array_sub(buf);      Serial.println(buf);
-  test_pf[11] = test__array_swap(buf);     Serial.println(buf);
-  test_pf[12] = test__array_zero(buf);     Serial.println(buf);
+  test_pf[ 6] = test__array_emax(buf);     Serial.println(buf);
+  test_pf[ 7] = test__array_mscl(buf);     Serial.println(buf);
+  test_pf[ 8] = test__array_mscladd(buf);  Serial.println(buf);
+  test_pf[ 9] = test__array_mult(buf);     Serial.println(buf);
+  test_pf[10] = test__array_setscl(buf);   Serial.println(buf);
+  test_pf[11] = test__array_sub(buf);      Serial.println(buf);
+  test_pf[12] = test__array_swap(buf);     Serial.println(buf);
+  test_pf[13] = test__array_zero(buf);     Serial.println(buf);
 
 
   Serial.println("-- Summary of results");
@@ -39,13 +40,14 @@ void setup() {
   Serial.print("    array_copy    -- "); printPassFail(buf, test_pf[ 3]); Serial.println(buf);
   Serial.print("    array_dot     -- "); printPassFail(buf, test_pf[ 4]); Serial.println(buf);
   Serial.print("    array_dotjump -- "); printPassFail(buf, test_pf[ 5]); Serial.println(buf);
-  Serial.print("    array_mscl    -- "); printPassFail(buf, test_pf[ 6]); Serial.println(buf);
-  Serial.print("    array_mscladd -- "); printPassFail(buf, test_pf[ 7]); Serial.println(buf);
-  Serial.print("    array_mult    -- "); printPassFail(buf, test_pf[ 8]); Serial.println(buf);
-  Serial.print("    array_setscl  -- "); printPassFail(buf, test_pf[ 9]); Serial.println(buf);
-  Serial.print("    array_sub     -- "); printPassFail(buf, test_pf[10]); Serial.println(buf);
-  Serial.print("    array_swap    -- "); printPassFail(buf, test_pf[11]); Serial.println(buf);
-  Serial.print("    array_zero    -- "); printPassFail(buf, test_pf[12]); Serial.println(buf);
+  Serial.print("    array_emax    -- "); printPassFail(buf, test_pf[ 6]); Serial.println(buf);
+  Serial.print("    array_mscl    -- "); printPassFail(buf, test_pf[ 7]); Serial.println(buf);
+  Serial.print("    array_mscladd -- "); printPassFail(buf, test_pf[ 8]); Serial.println(buf);
+  Serial.print("    array_mult    -- "); printPassFail(buf, test_pf[ 9]); Serial.println(buf);
+  Serial.print("    array_setscl  -- "); printPassFail(buf, test_pf[10]); Serial.println(buf);
+  Serial.print("    array_sub     -- "); printPassFail(buf, test_pf[11]); Serial.println(buf);
+  Serial.print("    array_swap    -- "); printPassFail(buf, test_pf[12]); Serial.println(buf);
+  Serial.print("    array_zero    -- "); printPassFail(buf, test_pf[13]); Serial.println(buf);
 
 
 }

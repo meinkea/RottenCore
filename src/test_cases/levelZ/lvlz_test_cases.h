@@ -3,8 +3,8 @@
  */
 
 
-#ifndef BLASXON__TESTCASES__LEVELZ__TEST_ARRAY_ADD_H
-  #define BLASXON__TESTCASES__LEVELZ__TEST_ARRAY_ADD_H
+#ifndef BLASXON__TESTCASES__LEVELZ__TEST_ARRAY_CASES_H
+  #define BLASXON__TESTCASES__LEVELZ__TEST_ARRAY_CASES_H
 
 
   //#include "inc/lvlz_test_arrays.h"
@@ -17,6 +17,7 @@
   #include "inc/test__array_copy.h"
   #include "inc/test__array_dot.h"
   #include "inc/test__array_dotjump.h"
+  #include "inc/test__array_emax.h"
   #include "inc/test__array_mscl.h"
   #include "inc/test__array_mscladd.h"
   #include "inc/test__array_mult.h"

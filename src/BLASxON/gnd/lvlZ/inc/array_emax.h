@@ -20,15 +20,32 @@
       __attribute__((always_inline))
       __attribute__((nonull))
     array_emax(
-      float * restrict res,
-      const float * arrOpr
-      const float jump
+      unsigned int * res,
+      const float * arrOpr,
+      const unsigned int start,
+      const unsigned int end,
+      const unsigned int jump
     ) {
-      *res = 0;
 
+      unsigned int mark = start;  // Set index to point to second element
+      unsigned int indx = start;  // 
+      float max = arrOpr[indx];   // Set max value as first array element
 
+      float element = 0.0;
+
+      for(unsigned int I=(start+1); I<(end); ++I) {
+        indx += jump;
+        element = fabs(arrOpr[indx]);
+
+        if(element > max) {
+          max = element;
+          mark = I;
+        }
+        
+      } // for loop
+
+      res[mark] = start;
     }
-
 
   #ifdef __cplusplus
     }
