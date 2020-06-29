@@ -12,7 +12,7 @@ void setup() {
     test_pf[I] = 2;
   }
 
-  // Create Matrix             ,    Initialize Matrix
+  // Create Matrix              ;    Initialize Matrix
   struct matrix mR0 = new_matrix; m__init(&mR0, 3, 3, "Result 0", MALLOC_CAP_8BIT);
   struct matrix mR1 = new_matrix; m__init(&mR1, 3, 3, "Result 1", MALLOC_CAP_8BIT);
   struct matrix mR2 = new_matrix; m__init(&mR2, 6, 6, "Result 2", MALLOC_CAP_8BIT);
