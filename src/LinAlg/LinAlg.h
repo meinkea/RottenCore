@@ -19,6 +19,9 @@
 
   #include "inc/m__LUdecomp.h"
 
+  #include "inc/m__RREF.h"
+
+  #include "inc/m__Invert.h"
 
 #endif // ROTTENCORE__LINALG_H
 
